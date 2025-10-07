@@ -5,6 +5,6 @@ global  _main
         push    message
         call    _printf
         add     esp, 4
-        ret
+        INT 80h
    message:
         db      'Hello World From Bata', 0
